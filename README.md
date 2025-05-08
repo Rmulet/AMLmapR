@@ -1,5 +1,5 @@
 ### Transcriptional AML subtype predictor
-This is a SVM based model to predict transcriptional AML subtypes.
+This is a SVM based model to predict transcriptional AML subtypes, originally developed by Jeppe Severens. This fork fixes the dependency management to ensure that 'caret' is automatically installed.
 
 ### Create input file
 To use this R package, you need to use STAR (we used version: 2.7.5c--0) to allign and quantify your counts. As Index and GTF use the following files: [GDC.h38.d1.vd1 STAR2 Index Files (v36)](https://api.gdc.cancer.gov/data/c0008693-0583-4eac-bd5c-583070763893) & [GDC.h38 GENCODE v36 GTF](https://api.gdc.cancer.gov/data/be002a2c-3b27-43f3-9e0f-fd47db92a6b5). We included an example snakemake file to see the options used and get you on your way quicker.
